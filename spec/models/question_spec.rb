@@ -5,6 +5,8 @@ RSpec.describe Question, :type => :model do
 
   it { should validate_presence_of :body }
 
+  it { should belong_to :answers }
+
   # it 'validates presence of title' do
   #   expect(Question.new(body: 'qwerty')).to_not be_valid
   # end
