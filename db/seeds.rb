@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Question.create!(title: "My question0001", body: "question")
+Question.create!(title: "My question0002", body: "question")
+Question.create!(title: "My question0003", body: "question")
+Question.create!(title: "My question0004", body: "question")
+Question.create!(title: "My question0005", body: "question")
+Question.create!(title: "My question0006", body: "question")
