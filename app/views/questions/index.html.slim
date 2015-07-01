@@ -5,6 +5,7 @@ section id="container"
         th 
         th 
     tbody
+      p= link_to 'Ask question', new_question_path
       - @questions.each do |question| 
          tr  class="active"
           td = question.title
